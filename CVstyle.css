@@ -1,21 +1,51 @@
+body {
+  background-color: #f6f1ed;
+}
+
 h1 {
 font-family: Didot, serif;
 font-weight: lighter;
 font-variant: small-caps;
 font-stretch: extra-expanded;
-color: #C6ADB7;
+color: #7F4A5F;
 }
 
 h2 {
   font-family: Didot, serif;
   font-weight: lighter;
   font-variant: small-caps;
-  color: #C6ADB7;
+  color: #7F4A5F;
 }
 
 h3 {
   font-family: Didot, serif;
   font-weight: lighter;
   font-variant: small-caps;
-  color: #C6ADB7;
+  color: #7F4A5F;
+}
+
+.links {
+    font-family: optima, sans-serif;;
+    font-weight: lighter;
+    color: #30231d;
+    font-variant: small-caps;
+    font-size: 150%;
+}
+/*unvisited link */
+a:link {
+  color: #30231d;
+}
+
+/*visited link*/
+a:visted {
+  color: #b5a397;
+}
+/*mouse over link*/
+a:hover {
+  color: #b5a397;
+}
+
+/*selected link*/
+a:active {
+  color: #30231d;
 }
