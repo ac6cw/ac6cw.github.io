@@ -1,0 +1,42 @@
+/* comments */
+
+/*Because this is a .css file, we DO NOT need the HTML tag <style> */
+/*this creates a style sheet within your HTML.
+not useful to use unless you MUST and can't have a seperate CSS.
+we are CURRENTLY IN CSS RIGHT NOW. Syntax here is V IMPORTANT*/
+
+/*selector {
+  property: value;
+  property: value;
+} */
+
+/*this is only useful if you only have one webpages.
+THE CSS files are for thousands of pages*/
+
+h1 {
+font-family: Georgia, serif;
+color: purple;
+color: pink; /*by adding this second color, it invalidates the first*/
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  color: purple;
+}
+
+ul {
+  font-family: Georgia, serif;
+  color: purple;
+}
+
+.frozen {
+  color: #999999;
+}
+
+.cheese,
+.cheese li {
+  color: #999999;
+}
+
+/*how to LINK your CSS file to the HTML file in HTML use following HTML:
+<link href="style.css" rel="stylesheet"> */
