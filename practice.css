@@ -1,0 +1,10 @@
+h1 {
+font-family: Georgia, serif;
+color: purple;
+color: pink; /*by adding this second color, it invalidates the first*/
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  color: purple;
+}
