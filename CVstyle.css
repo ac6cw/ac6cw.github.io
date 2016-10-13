@@ -84,11 +84,14 @@ header, footer {
 
 tr, td {
   padding: 15px;
+  font-style: Didot, serif;
+  color: #7F4A5F;
 }
 
 table {
   font-style: Didot, serif;
   color: #7F4A5F;
+  font-size: 110%;
 
 
 }
