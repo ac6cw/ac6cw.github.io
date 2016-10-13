@@ -15,6 +15,7 @@ h2 {
   font-weight: lighter;
   font-variant: small-caps;
   color: #7F4A5F;
+  font-size: 120%;
 }
 
 h3 {
@@ -34,6 +35,7 @@ h3 {
 /*unvisited link */
 a:link {
   color: #30231d;
+  font-size: 80%
 }
 
 /*visited link*/
@@ -48,4 +50,36 @@ a:hover {
 /*selected link*/
 a:active {
   color: #30231d;
+}
+
+div.container {
+  width: 100%;
+}
+
+header, footer {
+  padding: 1em;
+  color: #7F4A5F;
+  background-color: #f6f1ed;
+  clear: left;
+  text-align: center;
+}
+
+#bio {
+    margin-left: 220px;
+    padding: 1em;
+    overflow: hidden;
+    text-align: left;
+    font-family: Didot, serif;
+    color: #7F4A5F;
+    font-weight: lighter;
+    float: right;
+    position: absolute;
+}
+
+#navigation {
+    float: left;
+    position: relative;
+    max-width: 130px;
+    margin: 0;
+    padding: 0;
 }
