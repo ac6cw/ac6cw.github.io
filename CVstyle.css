@@ -65,7 +65,7 @@ header, footer {
 }
 
 #bio {
-    margin-left: 220px;
+    margin-left: 145px;
     padding: 1em;
     overflow: hidden;
     text-align: left;
@@ -81,5 +81,5 @@ header, footer {
     position: relative;
     max-width: 130px;
     margin: 0;
-    padding: 0;
+    padding: 1em;
 }
