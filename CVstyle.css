@@ -82,13 +82,13 @@ header, footer {
     padding: 1em;
 }
 
-th, td {
+tr, td {
   padding: 15px;
 }
 
 table {
   font-style: Didot, serif;
   color: #7F4A5F;
-  
+
 
 }
