@@ -22,6 +22,7 @@ h3 {
   font-family: Didot, serif;
   font-weight: lighter;
   font-variant: small-caps;
+  font-size: 150%;
   color: #7F4A5F;
 }
 
@@ -79,4 +80,15 @@ header, footer {
     max-width: 130px;
     margin: 0;
     padding: 1em;
+}
+
+th, td {
+  padding: 15px;
+}
+
+table {
+  font-style: Didot, serif;
+  color: #7F4A5F;
+  
+
 }
