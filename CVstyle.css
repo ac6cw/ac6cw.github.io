@@ -65,6 +65,8 @@ header, footer {
 
 #bio {
     margin-left: 145px;
+    margin-top: 15px;
+    /* AC: chose to adjust the bio with margin because it seemed like the easier place to fix. Of course if you choose to have the navigation on the other pages it would be better to address the actual nav bar */
     padding: 1em;
     overflow: hidden;
     text-align: left;
